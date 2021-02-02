@@ -40,7 +40,7 @@ jobs:
         run: |
           source "$CONDA/etc/profile.d/conda.sh"
           conda activate numba-scipy
-          bash .buildscripts/incremental/test.sh
+          bash ./buildscripts/incremental/test.sh
       ##- name: Coveralls
       ##  env:
       ##    GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
