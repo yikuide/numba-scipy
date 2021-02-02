@@ -35,7 +35,7 @@ jobs:
         run: |
           source "$CONDA/etc/profile.d/conda.sh"
           conda activate numba-scipy
-          flake8 numba-scipy
+          flake8 numba_scipy
       - name: Pytest
         run: |
           source "$CONDA/etc/profile.d/conda.sh"
